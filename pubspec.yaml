@@ -1,0 +1,39 @@
+name: trading_scanner
+description: >
+  Professional dark-themed trading signal scanner with custom price-action
+  and candlestick wick pattern detection, built on Syncfusion charts.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # High-performance interactive financial charting (candlestick, zoom/pan,
+  # trackball, scatter overlays for signal markers, annotations for X crosses)
+  syncfusion_flutter_charts: ^26.2.14
+  syncfusion_flutter_core: ^26.2.14
+
+  # State management
+  provider: ^6.1.2
+
+  # Networking (live data)
+  http: ^1.2.2
+
+  # Formatting
+  intl: ^0.19.0
+
+  # Local caching of last-loaded dataset (optional, offline resilience)
+  shared_preferences: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
